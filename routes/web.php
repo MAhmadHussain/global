@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/contact', function(){
     return view('contact');
 })->name('web-contactus');
+Route::get('/about-us', function(){
+    return view('about');
+})->name('web-about');

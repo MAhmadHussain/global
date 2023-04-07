@@ -10,16 +10,16 @@
             </div>
             <div class="upper-aboutus-form">
                 <form action="#" class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-12">
                         <input type="text" placeholder="Enter Name*" class="request-from-input" name="request-name" id="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-12">
                         <input type="email" placeholder="Enter Email*"  class="request-from-input" name="request-email" id="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-12">
                         <input type="number" placeholder="Enter number*"  class="request-from-input" name="request-number" id="">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-12">
                         <button type="button" class="request-from-btn">Request <i class="fas fa-square-plus"></i></button>
                     </div>
                 </form>
@@ -89,8 +89,8 @@
             </div>
             <div class="quality-lists p-5">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card" style="width: 20rem">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card" style="margin-bottom: 20px;">
                             <div class="card-body text-start">
                                <div class="upper-head">
                                     <div class="card-symbol">
@@ -108,8 +108,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 20rem">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card" style="margin-bottom: 20px;">
                             <div class="card-body text-start">
                                <div class="upper-head">
                                     <div class="card-symbol">
@@ -127,8 +127,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 20rem">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card" style="margin-bottom: 20px;">
                             <div class="card-body text-start">
                                <div class="upper-head">
                                     <div class="card-symbol">
@@ -171,7 +171,7 @@
 </div>
 <div class="container-fluid py-5">
     <div class="small-container">
-        <div class="aboutus-div p-5">
+        <div class="aboutus-div">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="images-aboutus-div d-flex" style="height: 550px;">
@@ -180,7 +180,7 @@
                         </div>
                         <div class="small-image-aboutus-div ms-2">
                             <div class="image-text-div">
-                                <h2>We Are Trusted By More Than 4500 Clients</h2>
+                                <h2>We Are Trusted By More Than 50 Clients</h2>
                             </div>
                             <div class="small-image-div" style="height: 50%;">
                                 <img src="{{asset('images/about-us-2.jpg')}}" width="auto" height="100%" alt="" srcset="">
@@ -189,7 +189,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <div class="info-aboutus-div px-5" style="height: 550px;">
+                    <div class="info-aboutus-div" style="height: 550px;">
                         <p class="client-benefits"><span class="fab fa-magento"></span> About Us</p>
                         <h2 class="pb-3">The High Standard Trusted & Professional Services</h2>
                         <div class="aboutus-nav">

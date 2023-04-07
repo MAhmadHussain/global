@@ -1,5 +1,5 @@
 <div class="first-header">
-    <div class="container text-center">
+    <div class="container text-center first-header-container">
         <span class="me-5">
             <i class="fas fa-phone header-icon"></i>
             +923322335553
@@ -32,7 +32,7 @@
                     <a class="nav-link" href="#">Blogs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="{{route('web-about')}}">About us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('web-contactus')}}">Contact</a>
